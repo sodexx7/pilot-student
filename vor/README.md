@@ -43,5 +43,24 @@
 * p1-7-oo-1
     1. 软件开发的根本困难在于管理软件系统的复杂度。
 
-**加强对官方文档的阅读** 如[Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)   
+* p1-9-oo-3
+    1. python 新创建一个对象时，采用调用函数的方式，如f(param1,param2)<f为类名>,其默认会执行其类里面的初始方法__init__(self,param1,param2),而对应Java里面 则是 new f()d 形式，构造时，默认执行构造器方法。**不过Java构造时，可以有多个不同参数的构造器，Python中不知道有没有**
+    2. python集成父类采用这种形式:class Cat(Animal): 其中Cat为父类，而Java中采用 extends implements 形式。
+    3. Python中以__开头和结尾的方法或者变量，外部最好不要依赖这些方法或者变量。Python也不像Java和C++无私有成员一说。
+    4. 彻底搞懂字符集及编码标准，可以多看看这一章，pilot-student/p1-a-string.ipynb
+* p1-a-string
+    1. [Python str方法](https://docs.python.org/3/library/stdtypes.html#string-methods)
+    2. [Python中对UniCode的支持](https://docs.python.org/3/howto/unicode.html) 
+    3. str方法都不会改变原来的字符串对象，而是把处理结果作为一个新的字符串返回，我们可以将其赋值给另一个变量然后使用。如capitalize()，upper() 和 lower()，rjust()，ljust() 和 center()，判断字符串是不是具有某种特征：
+        * isalpha() 判断字符串里是不是都是字母；
+        * isdigit() 判断字符串里是不是都是数字；
+        * islower() isupper() 判断字符串是不是全小写或者全大写字母
+    4. str后面可能很有用的方法
 
+
+
+
+TODO
+1. [str方法官方文档](https://docs.python.org/3.5/library/stdtypes.html#string-methods)
+2. **加强对官方文档的阅读** 如[Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)   
+3. 字符与字符的内容有时间可以多看看，发掘下Python里面本身的一些内容
