@@ -57,6 +57,10 @@
         * islower() isupper() 判断字符串是不是全小写或者全大写字母
     4. str后面可能很有用的方法
 
+* p2-1-function-def
+    1. [PEP8](https://www.python.org/dev/peps/pep-0008/#naming-conventions)
+    2. 一个函数可以有多个带缺省值的参数，但有一个限制：所有这些带缺省值的参数只能堆在参数表的最后
+
 
 
 
@@ -64,3 +68,4 @@ TODO
 1. [str方法官方文档](https://docs.python.org/3.5/library/stdtypes.html#string-methods)
 2. **加强对官方文档的阅读** 如[Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)   
 3. 字符与字符的内容有时间可以多看看，发掘下Python里面本身的一些内容
+4. 梳理Python语言本身的特性 相比较于其他语言。
